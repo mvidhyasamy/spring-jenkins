@@ -12,7 +12,7 @@ public class SpringJenkinsApplication {
 
 	@GetMapping("/ping")
 	public String message() {
-		return "ha ha ha email also configured.." +
+		return "email,pipeline also configured.." +
 				"Application Deployed successfully in Jenkins";
 	}
 
