@@ -12,7 +12,8 @@ public class SpringJenkinsApplication {
 
 	@GetMapping("/ping")
 	public String message() {
-		return "Wao!! Application Deployed successfully in Jenkins";
+		return "ha ha ha email also configured.." +
+				"Application Deployed successfully in Jenkins";
 	}
 
 	public static void main(String[] args) {
